@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+:root {
+    --Texto_escuro: #14183E;
+    --Azul: #4372EB;
+    --Cinza_claro: #9A9EA6;
+}
+
+body{
+    margin: 1px;
+    font-family: "Plus Jakarta Sans";
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+#container {
+    width: 95%;
+    padding: 5px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 1px; 
+}
+#header img{
+    margin-top: 10px;
+}
+
+#account {
+    font-size: 15px; 
+    color: #888;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/**/
+#conteiner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+
+}
+
+#cadastrar{
+    background-color: #2f80ed;
+    color: white;
+    margin-left: 10%;
+    }
+    
+#funciona {
+    color: #2f80ed;
+    }
+#viajante{
+    max-width: 350px;
+    border-radius: 30px;
+}
+
+
+/**/
+#conteiner3 {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 23%; 
+    border-radius: 10px;
+}
+/**/
+#destinos {
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#destinos h2 {
+    font-size: 20px;
+    color: var(--Azul);
+    margin-bottom: 10px;
+}
+
+#destinos h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#destino-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.destino-item {
+    width: 23%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.destino-item img {
+    width: 100%;
+    height: auto;
+}
